@@ -25,6 +25,11 @@
    - 当使用 conda install 无法安装时，可尝试使用 pip 安装
      - `pip install 包名称 -i https://pypi.tuna.tsinghua.edu.cn/simple  # 清华镜像`
      - `pip install 包名称 -i  https://pypi.douban.com/simple  # 豆瓣镜像`
+   - 从 Anaconda.org 中获取安装包的命令
+     - 浏览器中输入 `http://anaconda.org`（无需注册）
+     - 搜索要安装的包名
+     - 选择下载量最好的，点击包名
+     - 复制给定的命令，并粘贴在终端中执行
 ### 全局解释器
 1. **用途**
    - 运行全局 Python 脚本或简单任务。
