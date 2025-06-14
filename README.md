@@ -37,3 +37,7 @@
 |激活方式|.\venv\Scripts\activate（Windows）|conda activate <环境名>|无需激活|
 |适用场景|普通 Python 项目|科学计算、多语言依赖项目|临时脚本或学习|
 |路径示例|F:/.../.venv/Scripts/python.exe|F:/anoconda3/envs/test/python.exe|C:/.../WindowsApps/python3.10.exe|
+### 删除环境或包
+- 删除指定环境：`conda remove -n 环境名 --all -y`
+- 删除当前环境的包：`conda remove 包名称`
+- 卸载指定环境中的包：`conda remove -n 环境名 包名称`
