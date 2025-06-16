@@ -35,14 +35,14 @@
    - 运行全局 Python 脚本或简单任务。
    - 不适合项目管理（易造成依赖冲突）。
 ### 总结
-|特性|虚拟环境解释器|Conda 环境解释器|全局解释器|
-|---|---|---|---|
-|环境类型|项目隔离（venv）|跨平台隔离（Conda）|系统全局|
-|依赖管理|仅 Python 包|Python 包 + 非 Python 库（如 C 库）|所有包全局安装|
-|激活方式|.\venv\Scripts\activate（Windows）|conda activate <环境名>|无需激活|
-|适用场景|普通 Python 项目|科学计算、多语言依赖项目|临时脚本或学习|
-|路径示例|F:/.../.venv/Scripts/python.exe|F:/anoconda3/envs/test/python.exe|C:/.../WindowsApps/python3.10.exe|
+|特性|虚拟环境解释器|Conda 环境解释器|系统解释器|全局解释器|
+|---|---|---|---|---|
+|环境类型|项目隔离（venv）| 跨平台隔离（Conda）                   | 空                               |系统全局|
+|依赖管理|仅 Python 包| Python 包 + 非 Python 库（如 C 库    | 空                               |所有包全局安装|
+|激活方式|.\venv\Scripts\activate（Windows）| conda activate <环境名>           | 空                               |无需激活|
+|适用场景|普通 Python 项目| 科学计算、多语言依赖项目                   | 空                               |临时脚本或学习|
+|路径示例|F:/.../.venv/Scripts/python.exe|F:/anaconda3/envs/test/python.exe| F:/anaconda3/envs/test/python.exe |C:/.../WindowsApps/python3.10.exe|
 ### 删除环境或包
 - 删除指定环境：`conda remove -n 环境名 --all -y`
 - 删除当前环境的包：`conda remove 包名称`
-- 卸载指定环境中的包：`conda remove -n 环境名 包名称`
+- 卸载�
